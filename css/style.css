@@ -2,18 +2,18 @@
 
 @font-face {
     font-family: 'druk-heavy';
-    src: url('/fonts/druktextwidecyr-heavy.otf'),
-    url('/fonts/druktextwidecyr-heavy.otf');
+    src: url('../fonts/druktextwidecyr-heavy.otf'),
+    url('../fonts/druktextwidecyr-heavy.otf');
 }
 @font-face {
     font-family: 'gilroy-extrabold';
-    src: url('/fonts/Gilroy-Extrabold.ttf'),
-    url('/fonts/Gilroy-Extrabold.ttf');
+    src: url('../fonts/Gilroy-Extrabold.ttf'),
+    url('../fonts/Gilroy-Extrabold.ttf');
 }
 @font-face {
     font-family: 'gilroy-regular';
-    src: url('/fonts/Gilroy-Regular.ttf'),
-    url('/fonts/Gilroy-Regular.ttf');
+    src: url('../fonts/Gilroy-Regular.ttf'),
+    url('../fonts/Gilroy-Regular.ttf');
 }
 
 * {
