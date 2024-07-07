@@ -2,18 +2,18 @@
 
 @font-face {
     font-family: 'druk-heavy';
-    src: url('../fonts/druktextwidecyr-heavy.otf'),
-    url('../fonts/druktextwidecyr-heavy.otf');
+    src: url('/fonts/druktextwidecyr-heavy.otf'),
+    url('/fonts/druktextwidecyr-heavy.otf');
 }
 @font-face {
     font-family: 'gilroy-extrabold';
-    src: url('../fonts/Gilroy-Extrabold.ttf'),
-    url('../fonts/Gilroy-Extrabold.ttf');
+    src: url('/fonts/Gilroy-Extrabold.ttf'),
+    url('/fonts/Gilroy-Extrabold.ttf');
 }
 @font-face {
     font-family: 'gilroy-regular';
-    src: url('../fonts/Gilroy-Regular.ttf'),
-    url('../fonts/Gilroy-Regular.ttf');
+    src: url('/fonts/Gilroy-Regular.ttf'),
+    url('/fonts/Gilroy-Regular.ttf');
 }
 
 * {
@@ -132,29 +132,9 @@ section {
 .main-image {
     width: 580px;
 }
-@keyframes gradientAnimation {
-    0% {
-        stop-color: white;
-        stop-opacity: 1;
-    }
-    50% {
-        stop-color: white;
-        stop-opacity: 0;
-    }
-    100% {
-        stop-color: white;
-        stop-opacity: 1;
-    }
-}
-
-.animated-gradient stop {
-    animation: gradientAnimation 5s infinite;
-}
-
-
 
 .main-logo {
-    margin: 250px 0 0 -306px;
+    margin: 250px 0 0 -270px;
 }
 .main-pattern {
     position: absolute;
@@ -600,7 +580,7 @@ section {
     opacity: 0;
     transition: opacity 0.5s;
     backdrop-filter: blur(10px);
-	-webkit-backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 .modal-show {
     display: flex;
