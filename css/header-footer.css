@@ -87,7 +87,29 @@ header {
     height: 34px;
     transition: var(--transition);
 }
-
+.logo-org {
+    margin-left: auto;
+    margin-right: 40px;
+    text-align: right;
+    font-size: 16px;
+    color: #29b8c4;
+}
+.logo-org-mobile {
+    display: none;
+}
+.logo-bftn {
+    height: 80px;
+    width: auto;
+    margin-top: -10px;
+    transition: var(--transition);
+}
+.logo-bftn-scroll {
+    height: 50px;
+    transition: var(--transition);
+}
+.logo-bftn-mobile svg > path {
+    fill: var(--body);
+}
 
 /* menu ========================*/
 .nav {
@@ -98,7 +120,8 @@ header {
     background: white;
     max-width: 500px;
     width: 100%;
-    column-count: 2;
+    flex-direction: column;
+    justify-content: space-between;
     transition: 0.2s ease-in-out;
     height: 100vh;
     display: flex;
@@ -198,5 +221,11 @@ header {
     .logos-mobile {
         display: block;
     }
-
+    .logo-org {
+        display: none;
+    }
+    .logo-org-mobile {
+        display: block;
+        margin: inherit;
+    }
 }
